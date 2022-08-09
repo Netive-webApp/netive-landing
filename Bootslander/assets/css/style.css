@@ -127,12 +127,19 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(1, 4, 136, 0.9);
   height: 60px;
 }
+#header .logo {
+  display:flex;
+  align-items: center;
+}
 #header .logo h1 {
   font-size: 28px;
+  color:#fff;
+  font-family: monospace;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
+  margin-left: 4px;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
