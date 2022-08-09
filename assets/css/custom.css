@@ -1,0 +1,30 @@
+#web-plateform::after{
+content: "";
+position: relative; 
+bottom: 0;
+left: 0;
+width: 100%;
+height: 1px;
+animation: hero-cms-name 20s infinite;
+color: white;
+
+}
+
+@keyframes hero-cms-name {
+  0%   {content: "SHOPIFY";}
+  10%  {content: "WORDPRESS";}
+  20%  {content: "BUBBLE";}
+  30%  {content: "MAGENTO";}
+  40%  {content: "JOOMLA";}
+  50%  {content: "DRUPAL";}
+  60%  {content: "WIX";}
+  70%  {content: "REACT";}
+  80%  {content: "VUE";}
+  90%  {content: "ANY";}
+  100%   {content: "SHOPIFY";}
+
+
+
+
+
+}
